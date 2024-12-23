@@ -1,0 +1,23 @@
+/* regole generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gochi Hand", serif;
+}
+
+
+/* background color #18A494 */
+
+body{
+    background-color: #18A494;
+    padding: 0 15%;
+}
+
+h1{
+    text-align: center;
+    margin: 2% 0;
+    color: #fff;
+    font-size: 80px;
+}

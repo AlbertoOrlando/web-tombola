@@ -43,14 +43,14 @@ let sacchetto1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
 let sacchetto2 = [];
 
 for (let i = 1; i <= 90; i++) {
-    // console.log(confirm("Estreai un numero"));
+    console.log(confirm("Estreai un numero"));
     // aggiungere bottone finisci la partita dopo 15 estrazioni
-    // if (i >= 15) {
-    //     let endGame = confirm("Vuoi terminare la partita?");
-    //     if (endGame) {
-    //         alert("Partita terminata");
-    //         break;
-    //     }
+    if (i >= 15) {
+        let endGame = confirm("Vuoi terminare la partita?");
+        if (endGame) {
+            alert("Partita terminata");
+            break;
+        }
     }
     let numeroRandom = Math.floor(Math.random() * sacchetto1.length);
     sacchetto2.push(sacchetto1[numeroRandom]);
@@ -61,8 +61,3 @@ for (let i = 1; i <= 90; i++) {
         break;
     }
 }
-
-
-
-
-
